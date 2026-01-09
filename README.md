@@ -4,5 +4,5 @@ this is a work space for members of the project to create and develop the SME sy
 * Samuel Akowuah (UX/UI desginer)
 * Samuel Boakye (sever management)
 * Godfred lartey(Database)
-* Evans (Frontend Developer)
+* Evans Ghartey (Frontend Developer)
 * Isaac Kyeremanteng (documentation and testing)
