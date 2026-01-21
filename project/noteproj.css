@@ -1,0 +1,132 @@
+:root{
+	color-scheme: light dark;
+}
+
+
+
+
+body{
+	min-height:800px;
+	background-color : light- dark(#ADD8E6,rgb(0,0,22));
+	color : whitesmoke;
+	display : flex;
+	justify-content : space-evenly;
+	
+	
+}
+h3{
+	color: powderblue;
+	font-family: calibri;
+	
+	
+}
+a{
+	text-decoration:none;
+	padding:10px;
+	
+}
+Button
+{
+	background-color:#D6B9FC;
+	font-size : 15px;
+	font-family:Readex Pro, sans-serif;
+	padding : 0.5em 1em;
+	border-radius: 1em;
+	border: none;
+	outline:1px solid black;	
+
+	cursor:pointer;
+	
+	
+	
+}
+.service
+{
+	
+	height: 180px;
+	width : 220px;
+	border-radius: 1em;
+	background-color:#D6B9FC;
+	color:black;
+	flex-grow:1;
+	
+	
+
+}
+
+.charc
+{
+	margin-top:50px;
+	border-radius: 1em;
+	background-color:#D6B9FC;
+	color:black;
+	gap: 20px;
+	flex-wrap: wrap;
+	min-height:250px;
+	padding : 0.5em 1em;
+	
+}
+dl
+{
+	text-align :left;
+	display:flex;
+	justify-content : space-evenly;
+	padding : 0.5em 1em;
+	
+}
+Button:Hover
+{
+	background-color: powderblue;
+	
+}
+.start
+{
+	position: sticky;
+	
+	
+	top: 10px;
+	
+}
+p
+{
+	padding : 0.5em 1em;
+}
+
+td
+{
+
+	background-color:#D6B9FC;
+	color:#50207A;
+	border-radius: 1em;
+	
+	
+	
+	
+}
+Th
+{
+	background-color:#D6B9FC;
+	color:#50207A;
+	border-radius: 1em;
+}
+.supser
+{
+	display:flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top:50px;
+}
+.welc
+{
+	margin-top:100px;
+	justify-content:center;
+	text-align: center;
+}
+dt
+
+{
+	font-weight: bold;
+	list-style-type: circle;
+	padding : 0.5em 1em;
+}
