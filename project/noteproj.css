@@ -7,7 +7,7 @@
 
 body{
 	min-height:800px;
-	background-color : light- dark(#ADD8E6,rgb(0,0,22));
+	background-image: url(Projectbg.PNG);
 	color : whitesmoke;
 	display : flex;
 	justify-content : space-evenly;
@@ -27,7 +27,8 @@ a{
 }
 Button
 {
-	background-color:#D6B9FC;
+	background-color:powderblue;
+	color: black;
 	font-size : 15px;
 	font-family:Readex Pro, sans-serif;
 	padding : 0.5em 1em;
@@ -46,8 +47,11 @@ Button
 	height: 180px;
 	width : 220px;
 	border-radius: 1em;
-	background-color:#D6B9FC;
-	color:black;
+	background-color:rgba(153, 98, 144, 0.253);
+	backdrop-filter: blur(20px);
+	border: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+	color:white;
 	flex-grow:1;
 	
 	
@@ -58,8 +62,12 @@ Button
 {
 	margin-top:50px;
 	border-radius: 1em;
-	background-color:#D6B9FC;
-	color:black;
+	background-color:rgba(153, 98, 144, 0.253);
+	backdrop-filter: blur(20px);
+	border: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+	color:white;
+	
 	gap: 20px;
 	flex-wrap: wrap;
 	min-height:250px;
@@ -81,7 +89,7 @@ Button:Hover
 }
 .start
 {
-	position: sticky;
+	
 	
 	
 	top: 10px;
