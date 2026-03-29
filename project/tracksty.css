@@ -44,7 +44,11 @@ p
 }
 .info
 {
-	background-color:#D6B9FC;
+	background-color:rgba(153, 98, 144, 0.253);
+	backdrop-filter: blur(20px);
+	border: 1px solid rgba(255,255,255,0.5);
+	box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+	color:white;
 	display:flex;
 	position: relative;
 	flex-grow: 1;
@@ -61,7 +65,8 @@ p
 	margin-top:20px;
 	border: 2px solid black;
 	border-radius: 1em;
-	background-color:#D6B9FC;
+	border: 1px solid rgba(255,255,255,0.5);
+	backdrop-filter: blur(20px);
 	padding: 0.5em;
 	justify-content : space-evenly;
 	
@@ -70,6 +75,8 @@ p
 input[type="submit"]
 {
 	margin: 1em;
+	width: 95%;
+	
 	justify-content:space-evenly;
 	border-radius: 0.5em;
 	border:none;
@@ -107,3 +114,9 @@ legend
 	text-align: center;
 }
 
+.realtime table
+{
+border: 1px solid black ;
+border-radius: 0.5em;
+
+}
