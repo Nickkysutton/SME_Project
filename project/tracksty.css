@@ -48,7 +48,7 @@ p
 	backdrop-filter: blur(20px);
 	border: 1px solid rgba(255,255,255,0.5);
 	box-shadow: 0 8px 32px rgba(0,0,0,0.15);
-	color:white;
+	
 	display:flex;
 	position: relative;
 	flex-grow: 1;
@@ -96,7 +96,7 @@ iframe
 }
 #transaction,#discribe,#money
 {
-	
+	color: black;
 	min-width:  98%;
 	border:none;
 	border-radius: 1em;
